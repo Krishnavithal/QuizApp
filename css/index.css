@@ -364,7 +364,7 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .quiz-home-box h4 {
     font-size: 20px;
   }
@@ -426,3 +426,4 @@ body {
     margin: 10px 0 15px;
   }
 }
+*/
