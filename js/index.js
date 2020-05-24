@@ -161,7 +161,12 @@ function timeIsUp() {
   }
   disableOptions();
   showAnswerDescription();
-  showNextQuestionBtn();
+  if (number != myApp.length) {
+    showNextQuestionBtn();
+  } else {
+    timeUpText.classList.remove("show");
+    quizOver();
+  }
   // stopTimer();
 }
 
