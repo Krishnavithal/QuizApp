@@ -7,13 +7,21 @@
 body {
   margin: 0;
   background-image: url("../images/background1.jpg");
-  height: 100vh;
+  /* height: 100vh; */
   /* width: 100vh; */
   background-attachment: fixed;
   /* background-position: ; */
   font-family: "Monteserrat", sans-serif;
 }
-
+/* .body {
+  margin: 0;
+  background-image: url("../images/background1.jpg");
+  height: 100vh;
+  /* width: 100vh; */
+/* background-attachment: fixed; */
+/* background-position: ; */
+/* font-family: "Monteserrat", sans-serif; */
+/* } */
 .custom-box {
   background: white;
   max-width: 800px;
