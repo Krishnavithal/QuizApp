@@ -4,60 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QuizApp</title>
-    <link rel="stylesheet" href="./css/index.css " />
+    <link rel="stylesheet" href="./styles/index.css " />
   </head>
   <body>
-    <div class="quiz-home-box custom-box show">
-      <h4>You'll have 15 seconds to answer each question.</h4>
-      <button type="button" class="start-quiz-btn btn">
-        Start The Quiz
-      </button>
-    </div>
-    <div class="quiz-box custom-box">
-      <div class="stats">
-        <div class="quiz-time">
-          <div class="remaining-time"></div>
-          <span class="time-up-text">Time's Up</span>
-        </div>
-        <div class="score-board" style="color: red;">
-          <span class="score-text">Score:</span>
-          <span class="correct-answers"></span>
-        </div>
-      </div>
-      <div class="question-box">
-        <div class="current-question-num"></div>
-        <div class="question-text">
-          Your fingernails and hair keep growing after you die
-        </div>
-      </div>
-      <div class="option-box">
-        <!-- we will create these options by our own -->
-        <!-- <div class="option">True</div>
-        <div class="option">False</div> -->
-        <!-- <div class="option">True</div>
-        <div class="option">False</div> -->
-      </div>
-      <div class="answer-description"></div>
-      <div class="next-question">
-        <button type="button" class="next-question-btn btn">
-          Next Question
-        </button>
-        <button type="button" class="see-result-btn btn">
-          See Your Result
+    <div class="body">
+      <div class="quiz-home-box custom-box show" style="margin-bottom: 100%;">
+        <h4>You'll have 15 seconds to answer each question.</h4>
+        <button type="button" class="start-quiz-btn btn">
+          Start The Quiz
         </button>
       </div>
-    </div>
-    <div class="quiz-over-box custom-box">
-      <h1>Quiz Result</h1>
-      <h4>Total Questions: <span class="total-questions">9</span></h4>
-      <h4>Attempt: <span class="total-attempt">8</span></h4>
-      <h4>Correct : <span class="total-correct">3</span></h4>
-      <h4>Wrong: <span class="total-wrong">5</span></h4>
-      <h4>Percentage: <span class="total-percentage">33.33%</span></h4>
-      <button type="button" class="start-again-quiz-btn btn">
-        Start Again
-      </button>
-      <button type="button" class="go-home-btn btn">Go To Home</button>
+      <div class="quiz-box custom-box" style="margin-bottom: 100%;">
+        <div class="stats">
+          <div class="quiz-time">
+            <div class="remaining-time"></div>
+            <span class="time-up-text">Time's Up</span>
+          </div>
+          <div class="score-board" style="color: red;">
+            <span class="score-text">Score:</span>
+            <span class="correct-answers"></span>
+          </div>
+        </div>
+        <div class="question-box">
+          <div class="current-question-num"></div>
+          <div class="question-text">
+            Your fingernails and hair keep growing after you die
+          </div>
+        </div>
+        <div class="option-box">
+          <!-- we will create these options by our own -->
+          <!-- <div class="option">True</div>
+        <div class="option">False</div> -->
+          <!-- <div class="option">True</div>
+        <div class="option">False</div> -->
+        </div>
+        <div class="answer-description"></div>
+        <div class="next-question">
+          <button type="button" class="next-question-btn btn">
+            Next Question
+          </button>
+          <button type="button" class="see-result-btn btn">
+            See Your Result
+          </button>
+        </div>
+      </div>
+      <div class="quiz-over-box custom-box" style="margin-bottom: 100%;">
+        <h1>Quiz Result</h1>
+        <h4>Total Questions: <span class="total-questions">9</span></h4>
+        <h4>Attempt: <span class="total-attempt">8</span></h4>
+        <h4>Correct : <span class="total-correct">3</span></h4>
+        <h4>Wrong: <span class="total-wrong">5</span></h4>
+        <h4>Percentage: <span class="total-percentage">33.33%</span></h4>
+        <button type="button" class="start-again-quiz-btn btn">
+          Start Again
+        </button>
+        <button type="button" class="go-home-btn btn">Go To Home</button>
+      </div>
     </div>
     <script src="./js/index.js"></script>
   </body>
